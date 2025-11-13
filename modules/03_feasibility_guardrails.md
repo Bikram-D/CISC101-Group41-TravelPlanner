@@ -1,3 +1,5 @@
+Change Log (2025-11-13): – Updated weather swap rule to include backup activiy during rainy or cold seasons.
+
 ### **Module 3 — Feasibility & Guardrails**
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -13,7 +15,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
   * If transfer between activities > 25 min or > 5 km → pick a closer alternative or add a short transit hop.
 4. **Weather Swap**
   
-  * If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
+  * If rain or cold season likely → include at least one indoor backup activity per day in rainy or cold seasons.
 5. **Time Overrun**
   
   * If total planned time > available hours → shorten lunch or pick a nearer stop.
